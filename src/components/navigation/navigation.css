@@ -1,0 +1,20 @@
+.nav-container{
+  margin: 0 auto;
+}
+.homeSection-conatiner{
+  margin: 0 auto;
+}
+.navigation-ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80vw;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  left: -20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  cursor: pointer;
+}

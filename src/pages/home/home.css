@@ -1,0 +1,106 @@
+body{
+  background-color: rgb(12, 10, 19);
+  color: rgb(212, 204, 204);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 95vw;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+  color: rgb(212, 204, 204);
+}
+.search-form{
+  padding: 16px;
+  box-shadow: 0px 0px 10px lightblue;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.search-form input{
+  width: 60%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+  background-color: rgb(12, 10, 19);
+  color: rgb(212, 204, 204);
+  margin-right: 8px;
+  box-shadow: 0px 0px 10px lightblue;
+}
+.search-form button{
+  font-size: 21px;
+  background-color: rgb(12, 10, 19);
+  color: rgb(212, 204, 204);
+  box-shadow: 0px 0px 10px lightblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.result-ul{
+  list-style: none;
+  margin-block: 16px;
+  margin-inline: 0px;
+  width:100%;
+  padding:0px;
+  align-self: center;
+  justify-self: center;
+}
+a{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  border: 1px solid white;
+  margin-block:4px;
+  margin-inline:4px;
+}
+.ul-img-container{
+  margin-top:24px;
+}
+.ul-img{
+  width: 100px;
+  height: 100px;
+}
+h3, h5, p{
+  text-align: center;
+}
+
+
+@media (min-width : 650px) {
+  a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border: 1px solid white;
+    margin-block:4px;
+    margin-inline:4px;
+    padding: 8px 8px 8px 8px;
+    width: 220px;
+  }
+  .result-ul{
+    list-style: none;
+    margin-block: 16px;
+    margin-inline: 0px;
+    width:100%;
+    padding:0px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
